@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - ScreenShake
+  - Enemy
+  - Projectile
+  - StartBtn
+  - OptBtn
+  - QuitBtn
   layers:
   - Default
   - TransparentFX
@@ -16,8 +21,8 @@ TagManager:
   - 
   - Ground
   - Post
-  - 
-  - 
+  - Enemy
+  - GameEnter
   - 
   - 
   - 
