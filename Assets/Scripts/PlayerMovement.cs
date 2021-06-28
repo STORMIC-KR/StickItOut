@@ -53,11 +53,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (facingRight == false && moveInput > 0)
         {
-            Flip();
+            //Flip();
         }
         else if (facingRight == true && moveInput < 0)
         {
-            Flip();
+            //Flip();
         }
     }
 
