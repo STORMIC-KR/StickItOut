@@ -21,7 +21,9 @@ public class SceneLoader : MonoBehaviour
     {
         if (other.CompareTag("Player") && this.CompareTag("StartBtn"))
         {
-            SceneManager.LoadScene("GameScene");
+            int index = Random.Range(1, 4);
+            SceneManager.LoadScene(index);
+            Debug.Log("Scene Loaded");
         }
         else if (other.CompareTag("Player") && this.CompareTag("QuitBtn"))
         {

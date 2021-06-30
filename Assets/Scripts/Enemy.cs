@@ -26,7 +26,7 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
             Debug.Log("Enemy Down!");
-            ScoreScript.scoreValue++;
+            ScoreScript.score++;
         }
     }
 
