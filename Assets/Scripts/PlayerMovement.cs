@@ -53,11 +53,11 @@ public class PlayerMovement : MonoBehaviour
 
         if (facingRight == false && moveInput > 0)
         {
-            //Flip();
+            Flip();
         }
         else if (facingRight == true && moveInput < 0)
         {
-            //Flip();
+            Flip();
         }
     }
 
@@ -85,6 +85,11 @@ public class PlayerMovement : MonoBehaviour
                 highestPosition = transform.position.y;
             }
             previousPosition = transform.position;
+        }
+
+        if(currentHealth == 0)
+        {
+            //Dead
         }
 
         if(isGround && isFalling)

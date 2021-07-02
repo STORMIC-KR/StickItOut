@@ -29,7 +29,6 @@ public class Projectile : MonoBehaviour
             }
             DestroyProjectile();
         }
-
         transform.Translate(Vector2.right * speed * Time.deltaTime);
     }
 
